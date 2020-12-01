@@ -61,6 +61,11 @@ background-color: #d8a200;
 
 
 }
+
+.navBar #active {
+    background-color: #000000;
+}
+
 .mainDiv #leftBox {
     position:absolute;
     margin: 0px 10px 10px 25px;
@@ -71,6 +76,8 @@ background-color: #d8a200;
     
   
 }
+
+
 
 .mainDiv #mainBox {
 
