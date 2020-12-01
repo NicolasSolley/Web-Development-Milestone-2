@@ -61,32 +61,26 @@ background-color: #d8a200;
 
 
 }
+.mainDiv #leftBox {
+    position:absolute;
+    margin: 10px 10px 10px 25px;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
 
-.mainDiv {
+    
   
-justify-content: center;
-    display: flex;
-   border: solid black;
- align-items: center;
-
-
-
-
 }
-
 
 .mainDiv #mainBox {
 
-border: solid black;
-   height: 900px;
-   width: 500px;
+    text-align: center;
+    justify-items: center;
+
+    border: 1px solid black;
+margin: 10px auto;
+
+height: 900px;
+width: 500px;
 }
 
-
-#innerRight {
-
-  
-    border: solid black;
-    height: 900px;
- 
-}
