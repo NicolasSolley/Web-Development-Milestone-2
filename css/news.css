@@ -118,7 +118,11 @@ font-size: 14px;
     font-size: 18px;
     float: left;
     text-align: center;
-    margin: 20px 10px 20px 60px;
+    margin: 20px 10px 20px 90px;
+   
     
+}
+.mainDiv #newsDiv a {
+    text-decoration: none;
 }
 
