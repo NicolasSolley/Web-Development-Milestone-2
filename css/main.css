@@ -4,7 +4,10 @@
    
 }
 
-
+head, body {
+    height: 100%;
+    width: 100%;
+}
 .pageHeader {
     background-color: black;
     width: 100%;
@@ -76,9 +79,7 @@ background-color: black;
     
   
 }
-.mainDiv {
-   
-}
+
 
 .mainDiv #mainBox {
 float: right;
