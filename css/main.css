@@ -99,9 +99,13 @@ margin: 15px;
 
 }
 .mainDiv #contactBox table, th, td {
+   
 font-size: 14px;
  border: 1px solid black;
  border-collapse: collapse;
 
+}
+.mainDiv #contactBox table {
+    float: left;
 }
 
