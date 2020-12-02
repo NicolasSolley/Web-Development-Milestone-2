@@ -66,7 +66,7 @@ background-color: black;
 }
 
 .mainDiv #leftBox {
-    position:absolute;
+  float: left;
     margin: 0px 10px 10px 25px;
    
     height: 400px;
