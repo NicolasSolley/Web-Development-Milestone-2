@@ -4,11 +4,15 @@
    
 }
 
-
+head, body {
+    height: 100%;
+    width: 100%;
+}
 .pageHeader {
     background-color: black;
     width: 100%;
-    height: 125px;
+    height: 125%;
+    overflow: hidden;
     
     
    
@@ -33,7 +37,7 @@ top: auto;
 
 .navBar {
 background-color: #FFBF00;
-height: 40px;
+height: 100%;
 width: 100%;
 overflow: hidden;
 text-align: center;
@@ -61,15 +65,14 @@ background-color: #d8a200;
 
 
 }
-
 .navBar #active {
-    background-color: #000000;
+background-color: black;
 }
 
 .mainDiv #leftBox {
-    position:absolute;
+  float: left;
     margin: 0px 10px 10px 25px;
-    border: 1px solid black;
+   
     height: 400px;
     width: 400px;
 
@@ -78,16 +81,31 @@ background-color: #d8a200;
 }
 
 
-
 .mainDiv #mainBox {
-
+float: right;
     text-align: center;
     justify-items: center;
 
     border: 1px solid black;
-margin: 25px auto;
+margin: 20px ;
 
 height: 900px;
-width: 500px;
+width: 900px;
+}
+
+.mainDiv #contactBox {
+
+margin: 15px;
+
+}
+.mainDiv #contactBox table, th, td {
+   
+font-size: 14px;
+ border: 1px solid black;
+ border-collapse: collapse;
+
+}
+.mainDiv #contactBox table {
+    float: left;
 }
 
