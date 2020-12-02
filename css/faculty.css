@@ -109,3 +109,15 @@ font-size: 14px;
     float: left;
 }
 
+.mainDiv #facultyList {
+    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.mainDiv #facultyList > .facultyBox {
+    border: 1px solid black;
+    padding:150px;
+    margin: 20px;
+}
