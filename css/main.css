@@ -61,26 +61,44 @@ background-color: #d8a200;
 
 
 }
+.navBar #active {
+background-color: black;
+}
+
 .mainDiv #leftBox {
     position:absolute;
     margin: 0px 10px 10px 25px;
-    border: 1px solid black;
+   
     height: 400px;
     width: 400px;
 
     
   
 }
+.mainDiv {
+   
+}
 
 .mainDiv #mainBox {
-
+float: right;
     text-align: center;
     justify-items: center;
 
     border: 1px solid black;
-margin: 25px auto;
+margin: 20px ;
 
 height: 900px;
-width: 500px;
+width: 900px;
+}
+
+.mainDiv #contactBox {
+
+margin: 15px;
+
+}
+.mainDiv #contactBox table, th, td {
+font-size: 14px;
+ border: 1px solid black;
+ border-collapse: collapse;
 }
 
