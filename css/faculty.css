@@ -70,12 +70,14 @@ background-color: black;
 }
 
 .mainDiv #leftBox {
-  float: left;
-    margin: 0px 10px 10px 25px;
+
+    float: left;
+    margin: 20px 10px 10px 25px;
    
     height: 400px;
     width: 400px;
 
+    
     
   
 }
@@ -110,14 +112,30 @@ font-size: 14px;
 }
 
 .mainDiv #facultyList {
-    justify-content: center;
+  
+justify-content: center;
+   
 display: flex;
 flex-wrap: wrap;
 
 
 }
-.mainDiv #facultyList > .facultyBox {
+.mainDiv #facultyList .facultyBox {
     border: 1px solid black;
+
     padding:150px;
     margin: 20px;
+}
+.mainDiv #contactBox table {
+    float: left;
+    margin: 30px;
+   
+}
+
+.mainDiv #newsDiv {
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    margin: 20px 10px 20px 60px;
+    
 }
